@@ -13,7 +13,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - name: Cari proyek (ekstrak zip kalau perlu)
+      - name: Siren_head_the_watching_trees.zip
         run: |
           if [ ! -f gradlew ]; then
             Z=$(find . -maxdepth 2 -iname '*.zip' -not -path './.git/*' | head -n1)
